@@ -1,0 +1,236 @@
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <title>Instagram</title>
+         <style>
+            .main {
+                width:935px;
+                height:618px;
+                padding-bottom: 32px;
+                margin: 32px;
+                position: absolute;
+                left:508px;
+                top:68px;
+            }
+            .phone {
+                float:left;
+            }
+            #photo-1 {
+                position: absolute;
+                top: 100px;
+                left:150px;
+            }
+            .container {
+                position:absolute;
+                margin-top: 12px;
+                width:350px;
+                height: 606px;
+                float: right;
+                right: 146px;
+                top:22px;
+            }
+            #form {
+                border: 1px solid rgb(219,219,219);
+                border-radius: 1px;
+                width: 348px;
+                height: 358px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                margin-bottom: 10px;
+            }
+            #logo {
+                margin-top: 22px;
+                margin-right: auto;
+                margin-bottom: 12px;
+                margin-left: auto;
+                height: 51px;
+                width: 175px;
+            }
+            .formfield {
+                width: 348px;
+                height: 213px;
+                margin-top: 24px;
+            }
+            .field {
+                width: 268px;
+                height: 36px;
+                margin-left: 36px;
+                margin-right: 36px;
+            }
+            .field input {
+                color:rgb(142,142,142);
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                padding-left: 8px;
+                font-size: 12px;
+                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+                line-height: 18px;
+                width: 268px;
+                height: 32px;
+            }
+            .field button {
+                width: 280px;
+                height: 30px;
+                border: 1px solid transparent;
+                border-radius: 4px;
+                background: rgb(0,149,246);
+                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: center;
+                color: white;
+                padding: 6px;
+                font-weight: bold;
+            }
+            .line {
+                height: 1px;
+                position: relative;
+                top: .75em;
+                background-color: rgb(219,219,219);
+            }
+            .or {
+                background: white;
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 15px;
+                margin-top: 6px;
+                margin-right: 18px;
+                margin-bottom: 0px;
+                margin-left: 18px;
+                text-align: center;    
+            }
+            .field .facebook button {
+                width: 280px;
+                height: 28px;
+                border: 1px solid transparent;
+                border-radius: 4px;
+                background: white;
+                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: center;
+                color: #385185;
+                padding: 6px;
+                font-weight: bold;
+            }
+            .forgotpass {
+                color: #00376b;
+                font-size: 12px;
+                line-height: 14px;
+                margin-top: 12px;
+                text-align: center;
+            }
+            .forgotpass a {
+                text-decoration: none;
+                color: #00376b;
+                font-size: 11px;
+            }
+            #signup {
+                border: 1px solid rgb(219,219,219);
+                border-radius: 1px;
+                width: 348px;
+                height: 41px;
+                margin-bottom: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            #noAccount {
+                width: 348px;
+                height: 48px;
+                font-size: 14px;
+                text-align: center;
+                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+            }
+            #noAccount p {
+                margin-left: 8px;
+            }
+            #noAccount a {
+                text-decoration: none;
+                color: #0095f6;
+                font-size: 14px;
+            }
+            .links {
+                width: 350px;
+                height: 102px;
+                font-size: 14px;
+                text-align: center;
+            }
+         </style>
+     </head>
+     <body>
+        <div class="main">
+            <div class="phone">
+                <img src="https://www.instagram.com/static/images/homepage/home-phones.png/38825c9d5aa2.png"/>
+                    <div id="photo-1">
+                        <img src="https://www.instagram.com/static/images/homepage/screenshot2.jpg/2d9d7248af43.jpg"/>
+                    </div>
+            </div>
+            <div class="container">
+                <div id="form">
+                    <div id="logo"></div>
+                    <div class="formfield">
+                        <div class="field">
+                            <input type="text" placeholder="Phone number, username, or email"/>
+                        </div>
+                        <div class="field" style="margin-top: 8px;">
+                            <input type="password" placeholder="Password"/>
+                        </div>
+                        <div class="field" style="margin-top: 16px;">
+                            <a href=""><button type="submit">Log in</button></a>
+                        </div>
+                        <div class="field">
+                            <div class="line"></div>
+                            <div class="or">OR</div>
+                        </div>
+                        <div class="field">
+                            <div class="facebook">
+                                <a href=""><button type="submit">Log in with Facebook</button></a>
+                            </div>
+                        </div>
+                        <div class="forgotpass">
+                            <a href="">Forgot password?</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="signup">
+                    <div id="noAccount">
+                        <p>Don't have an account? <a href="">Sign up</a></p>
+                    </div>
+                </div>
+                <div class="links">
+                    <div><p style="margin-top: 20px;">Get the app.</p></div>
+                    <div class="store_icon">
+                        <a href=""><img alt="Available on the App Store" class="Rt8TI " src="https://www.instagram.com//static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png"></a>
+                    </div>
+                    <div class="store_icon">
+                        <a href=""><img alt="Available on Google Play" class="Rt8TI " src="https://www.instagram.com//static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div id="things">
+            <ul> 
+                <li><a href="" target="_blank">Sign Up</a></li>
+                <li><a href="" target="_blank">Log In</a></li>
+                <li><a href="" target="_blank">Messenger</a></li>
+                <li><a href="" target="_blank">Facebook Lite</a></li>
+                <li><a href="" target="_blank">Watch</a></li>
+                <li><a href="" target="_blank">People</a></li>
+                <li><a href="" target="_blank">Pages</a></li>
+                <li><a href="" target="_blank">Page categories</a></li>
+                <li><a href="" target="_blank">Places</a></li>
+                <li><a href="" target="_blank">Games</a></li>
+                <li><a href="" target="_blank">Locations</a></li>
+                <li><a href="" target="_blank">Marketplace</a></li>
+                <li><a href="" target="_blank">Facebook Pay</a></li>
+                <li><a href="" target="_blank">Groups</a></li>
+                <li><a href="" target="_blank">Jobs</a></li>
+                <li><a href="" target="_blank"></a></li>
+
+            </ul>
+        </div>
+        -->
+     </body>
+ </html>
