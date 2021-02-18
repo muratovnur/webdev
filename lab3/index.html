@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <style>
+            #top {
+                height: 80px;
+                background: rgb(12, 12, 12);
+            }
+            #main {
+                height: 800px;
+                margin-left: 600px;
+                margin-right: 600px;
+            }
+            #taskNew {
+                height: 40px;
+                float: left;
+                margin-left: 32px;
+                margin-right: 20px;
+                margin-top: 24px;
+                margin-bottom: 24px;
+            }
+            #taskNew input {
+                padding: 10px;
+                width: 580px;
+            }
+            #addButtonContainer {
+                float: right;
+                margin-top: 30px;
+                margin-bottom: 24px;
+            }
+            #addButtonContainer button{
+                background: blue;
+                width: 52px;
+                height: 32px;
+                border: none;
+                border-radius: 6px;
+                color: white;
+            }
+            #listContainer {
+                position: absolute;
+                width: 687px;
+                top: 258px;
+            }
+            .box {
+                border: 1px solid black;
+                width: 687px;
+                height: 64px;
+                float: left;
+            }
+            .box input {
+                height: 58px;
+                float: left;
+                margin-left: 12px;
+                margin-right: 28px;
+            }
+            .box p{
+                float:left;
+                width: 600px;
+                height: 40px;
+                margin-top: 24px;
+                margin-bottom: 0px;
+            }
+            .box img {
+                float: left;
+                margin-top: 24px;
+            }            
+        </style>
+    </head>
+    <body>
+        <div id="top">
+            <p style="color:white; font-size: 24px; padding: 28px 58px">ToDo List</p>
+        </div>
+        <div id="main">
+            <p style="font-size: 42px; margin-top: 42px; margin-bottom: 0px;">ToDo List</p>
+            <div id="taskNew">
+                <input id="taskName"type="text" placeholder="New Task"/>
+            </div>
+            <div id="addButtonContainer">
+                <button id="addButton" onclick="addTask()">Add</button>
+            </div>
+            <div id="listContainer">
+                <ul></ul>
+            </div>
+        </div>
+        <script src="static/a0.js"></script>
+    </body>
+</html>
