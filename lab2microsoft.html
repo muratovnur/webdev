@@ -3,10 +3,172 @@
     <head>
         <title>Microsoft</title>
         <style>
-            
+            #main {
+                padding-left: 150px;
+                padding-right: 150px;
+            }
+            .menu {
+                width: 1075px;
+            }
+            #header ul {
+                white-space: nowrap;
+                list-style-type: none;
+                display: flex;
+                margin-top: 10px;
+            }
+            #header ul li {
+                word-break: break-word;
+                font-size: 14px;
+            }
+            #leftMenu {
+                float: left;
+                width: 900px;
+                margin: 0px;
+            }
+            #leftMenu li {
+                margin-right: 16px;
+                font-size: 16px;
+            }
+            #rightMenu {
+                padding-right: 0px;
+                float: right;
+                margin: 0px;
+                margin-top: 0px;
+            }
+            #rightMenu li {
+                margin-left: 36px;
+                font-size: 16px;
+            }
+            #landing {
+                position: absolute;
+                top: 56px;
+            }
+            #landing #info {
+                position: absolute;
+                top: 200px;
+                width: 560px;
+                margin-left: 96px;
+            }
+            #info ul {
+                white-space: nowrap;
+                list-style-type: none;
+                display: flex;
+                margin-top: 10px;
+                padding: 0px;
+            }
+            #info ul li {
+                padding-right: 24px;
+            }
+            #info button {
+                background: black;
+                color: white;
+                padding: 10px;
+                border: 1px solid black;
+                padding-left: 24px;
+                padding-right: 24px;
+                font-size: 16px;
+                margin-right: 24px;
+                margin-top: 10px;
+            }
+            #onePerson {
+                margin-top: 19px;
+            }
+            #panels {
+                margin-top: 40px;
+            }
+            #panels #listParent{
+                list-style-type: none;
+                white-space: nowrap;
+                display: flex;
+                padding-left: 0px;
+
+            }
+
+            #listParent ul {
+                list-style-type: none;
+                padding-left: 0px;
+                width: 382px;
+                white-space: nowrap;
+            }
+            #listParent ul li {
+                width: 382px;
+                
+                word-break: break-word;
+
+            }
+            #landing .element {
+                width: 382px;
+                margin-right: 22px;
+            }
+            #listParent p {
+                font-size: 15px;
+                width: 382px;
+            }
+            #listParent img {
+                width: 382px;
+            }
+            .element a {
+                text-decoration: none;
+                color: #0067b8;
+                font-weight: 600;
+            }
         </style>
     </head>
     <body>
-
+        <div id="main">
+            <div id="header">
+                <img style="margin-top: 6px; margin-left: 8px; float: left;" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" width=108px; />
+                <ul id="leftMenu">
+                    <li>Microsoft 365</li>
+                    <li>Office</li>
+                    <li>Windows</li>
+                    <li>Поддержка</li>
+                </ul>
+                <ul id="rightMenu">
+                    <li>Все продукты Microsoft <img src="https://cdn.iconscout.com/icon/free/png-256/down-arrow-16-460295.png" width=16px /></li>
+                    <li>Поиск <img style="float:right;"src="https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-512.png" width=24px /> </li>
+                    <li>Войти <!-- <img src="https://cdn.iconscout.com/icon/free/png-512/account-269-866236.png" width=32px /> !--> </li>
+                </ul>    
+            </div>
+            <div id="landing">
+                <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4DRie?ver=f61d&q=0&m=8&h=472&w=1259&b=%23FFFFFFFF&l=f&x=0&y=0&s=1898&d=712&aim=true" width=1592px />
+                <div id="info">
+                    <h1>Microsoft 365</h1>
+                    <p>Приложения Office премиум, дополнительное облачное хранилище, продвинутые инструменты обеспечения безопасности — все в одной удобной подписке</p>
+                    <ul>
+                        <li><button type="submit"> До 6 человек <img src="" /></button></li>
+                        <li id="onePerson">Для 1 человека <img style="background: transparent;"src="" /></li>
+                    </ul>
+                </div>
+                <div id="panels">
+                    <ul id="listParent">
+                        <li><div class="element">
+                            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4CFyx?ver=25c5&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&x=839&y=615&aim=true"/>
+                            <h3>Microsoft Teams</h3>
+                            <p>Общайтесь, проводите собрания, звоните и <br> сотрудничайте.</p>
+                            <a href=""><p>Подробнее</p></a>
+                        </div></li>
+                        <li><div class="element">
+                            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4rzE2?ver=aa0b&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true"/>
+                            <h3>Microsoft Edge</h3>
+                            <p>Потрясающая производительность, больше <br> конфиденциальности, продуктивности и <br> дополнительных возможностей.</p>
+                            <a href=""><p>Скачать</p></a>
+                        </div></li>
+                        <li><div class="element">
+                            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3hD2k?ver=6539&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true"/>
+                            <h3>Microsoft OneDrive</h3>
+                            <p>Сохраняйте свои файлы и фотографии <br> на OneDrive — они будут доступны с любого устройства <br> и где угодно.</p>
+                            <a href=""><p>Подробнее</p></a>
+                        </div></li>
+                        <li><div class="element">
+                            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE37Bcs?ver=e981&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true"/>
+                            <h3>Обновление Windows 10</h3>
+                            <p>Предоставляя новые функции, которые помогут вам <br> успевать больше, общаться чаще и экономить <br>время.</p>
+                            <a href=""><p>Узнать больше</p></a>
+                        </div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
