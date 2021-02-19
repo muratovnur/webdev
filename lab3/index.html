@@ -1,6 +1,9 @@
 <html>
     <head>
         <style>
+            body {
+                height: auto;
+            }
             #top {
                 height: 80px;
                 background: rgb(12, 12, 12);
@@ -40,29 +43,40 @@
                 width: 687px;
                 top: 258px;
             }
+            #listContainer ul {
+                list-style: none;
+                padding-right: 0px;
+            }
             .box {
                 border: 1px solid black;
                 width: 687px;
                 height: 64px;
                 float: left;
             }
-            .box input {
+            .box-input {
                 height: 58px;
                 float: left;
                 margin-left: 12px;
                 margin-right: 28px;
             }
-            .box p{
+            .box-li{
                 float:left;
                 width: 600px;
                 height: 40px;
                 margin-top: 24px;
                 margin-bottom: 0px;
+
             }
-            .box img {
+            .box-img {
                 float: left;
                 margin-top: 24px;
-            }            
+            }
+            .box-img:hover {
+                cursor: pointer;
+            }
+            #listContainer {
+                height: 500px;
+            }     
         </style>
     </head>
     <body>
@@ -75,10 +89,12 @@
                 <input id="taskName"type="text" placeholder="New Task"/>
             </div>
             <div id="addButtonContainer">
-                <button id="addButton" onclick="addTask()">Add</button>
+                <button id="addButton">Add</button>
             </div>
             <div id="listContainer">
-                <ul></ul>
+                <ul id="toDoList">
+
+                </ul>
             </div>
         </div>
         <script src="static/a0.js"></script>
