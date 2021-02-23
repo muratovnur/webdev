@@ -1,0 +1,64 @@
+#main {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#main ul {
+  list-style: none;
+  padding-right: 40px;
+}
+
+#product-list img {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.info {
+  float: left;
+  width: 760px;
+}
+.name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+.name a {
+  text-decoration: none;
+  color: black;
+}
+.descr {
+  font-size: 18px;
+  margin-top: 12px;
+  height: 120px;
+}
+.rating {
+  font-size: 24px;
+  color: #3e67c4;
+  margin-top: 28px;
+  width: 400px;
+}
+.shareBtn {
+  float: left;
+  margin-top: 188px;
+}
+.shareBtn button {
+  background: #5151db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 18px;
+}
+.shareBtn button:hover {
+  cursor: pointer;
+}
+.listItem {
+  border: 0px solid gray;
+  height: 264px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.listItemBlock {
+  padding: 20px;
+  margin-bottom: 24px;
+  height: 200px;
+}
