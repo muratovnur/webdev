@@ -1,0 +1,11 @@
+<ul class="listItemBlock">
+  <li><img src="{{product.imgSrc}}"></li>
+  <div class="info">
+    <li class="name"><a href="{{product.link}}" target="_blank">{{product.name}}</a></li>
+    <li class="descr">{{product.description}}</li>
+    <li class="rating"> Rating: {{product.rating}}</li>
+  </div>
+  <li class="shareBtn"><a href="https://telegram.me/share/url?url=<{{product.link}}>&text=Check out this {{product.name}}" target="_blank"><button>Share</button></a>
+    <button id="removeBtn" (click)="removeProduct(product.name)">Remove</button></li>
+  <li class="liked"><img id="like" (click)="likeIncrement()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYEu-KDkBx5PJ9sNENPeYykQ3uZnlGdjDUVw&usqp=CAU"><p id="like-num">{{product.likes}}</p></li>
+</ul>

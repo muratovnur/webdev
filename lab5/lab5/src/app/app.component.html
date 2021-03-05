@@ -1,0 +1,13 @@
+<div id="header">
+  <h1 id="headerTitle">Products</h1>
+</div>
+<div id="menu">
+  <ul>
+    <li><p>Categories</p></li>
+    <li><button (click)="showCat1()">Category 1</button></li>
+    <li><button (click)="showCat2()">Category 2</button></li>
+    <li><button (click)="showCat3()">Category 3</button></li>
+    <li><button (click)="showCat4()">Category 4</button></li>
+  </ul>
+</div>
+<app-product-list [catSelected]="selectedCat"></app-product-list>

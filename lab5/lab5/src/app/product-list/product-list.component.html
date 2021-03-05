@@ -1,0 +1,22 @@
+<div id="main">
+  <ul class="product-list" *ngIf="catSelected == Category1.name">
+    <li *ngFor="let product of Category1.productList">
+      <app-product-item [product]="product" (removeItem)="removeProduct($event)"></app-product-item>
+    </li>
+  </ul>
+  <ul class="product-list" *ngIf="catSelected == Category2.name">
+    <li *ngFor="let product of Category2.productList">
+      <app-product-item [product]="product" (removeItem)="removeProduct($event)" ></app-product-item>
+    </li>
+  </ul>
+  <ul class="product-list" *ngIf="catSelected == Category3.name">
+    <li *ngFor="let product of Category3.productList">
+      <app-product-item [product]="product" (removeItem)="removeProduct($event)"></app-product-item>
+    </li>
+  </ul>
+  <ul class="product-list" *ngIf="catSelected == Category4.name">
+    <li *ngFor="let product of Category4.productList">
+      <app-product-item [product]="product" (removeItem)="removeProduct($event)"></app-product-item>
+    </li>
+  </ul>
+</div>
