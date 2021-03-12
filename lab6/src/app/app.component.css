@@ -1,0 +1,19 @@
+#header {
+  width: 100%;
+  height: 60px;
+  background: #2f2d2d;
+}
+.navMenu {
+  list-style: none;
+  display: flex;
+}
+.navMenu li {
+  margin-top: 20px;
+  margin-right: 32px;
+  color: white;
+}
+.navMenu a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,12 @@
+div {
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+p {
+  font-size: 26px;
+}
+#date {
+  font-size: 18px;
+  font-style: italic;
+}

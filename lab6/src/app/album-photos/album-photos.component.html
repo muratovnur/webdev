@@ -1,0 +1,9 @@
+<div *ngIf="photos">
+  <button (click)="goBack()">Back</button>
+  <ul>
+    <li *ngFor="let photo of photos">
+      <p>{{photo.title}}</p>
+      <img src="{{photo.url}}">
+    </li>
+  </ul>
+</div>
